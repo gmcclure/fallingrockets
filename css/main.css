@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #03b0ea; }
+a         { color: #03b0ea; text-decoration: none; }
 a:hover   { color: red; }
 
 /*****************************************************************************/
@@ -128,7 +128,7 @@ a:hover   { color: red; }
 
 /* standard */
 .post {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Vollkorn', Georgia, Times, "Times New Roman", serif;
 }
 
 .post p {
@@ -165,4 +165,8 @@ a:hover   { color: red; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post .verse {
+    text-indent: 0;
 }
